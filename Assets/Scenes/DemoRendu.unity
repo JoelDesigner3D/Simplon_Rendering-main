@@ -35,10 +35,10 @@ RenderSettings:
   m_DefaultReflectionMode: 0
   m_DefaultReflectionResolution: 1024
   m_ReflectionBounces: 1
-  m_ReflectionIntensity: 0.534
+  m_ReflectionIntensity: 0.499
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 1731790728}
-  m_IndirectSpecularColor: {r: 0.1395144, g: 0.24878621, b: 0.4007441, a: 0.534}
+  m_IndirectSpecularColor: {r: 0.1303702, g: 0.23248002, b: 0.37447813, a: 0.499}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -5599,7 +5599,7 @@ GameObject:
   - component: {fileID: 648337351}
   - component: {fileID: 648337352}
   m_Layer: 0
-  m_Name: Reflection Probe
+  m_Name: Reflection Probe chambre
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17528,7 +17528,7 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
-  m_ShadowAngle: 18.5
+  m_ShadowAngle: 0
 --- !u!4 &1731790729
 Transform:
   m_ObjectHideFlags: 0
@@ -19064,7 +19064,7 @@ Light:
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 1.33
-  m_Range: 11.28
+  m_Range: 11.22
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
