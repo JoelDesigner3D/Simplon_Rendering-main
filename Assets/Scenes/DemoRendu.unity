@@ -4111,14 +4111,14 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 650386896}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_VertexColorAlwaysGammaSpace: 0
+  m_VertexColorAlwaysGammaSpace: 1
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
@@ -4139,7 +4139,8 @@ MonoBehaviour:
   field: {fileID: 1283509179}
   skyboxDay: {fileID: 2100000, guid: 7ffc564429f3b9147ac0ada60e84990d, type: 2}
   skyboxNight: {fileID: 2100000, guid: b87cacf51931a5841b5931a664fd0730, type: 2}
-  ambientLightColor: {r: 0.15614986, g: 0.17372628, b: 0.2735849, a: 0}
+  ambientLightColorDay: {r: 0.8254717, g: 0.9492722, b: 1, a: 0}
+  ambientLightColorNight: {r: 0.102585755, g: 0.078987196, b: 0.23584908, a: 0}
 --- !u!1001 &416272132
 PrefabInstance:
   m_ObjectHideFlags: 0
