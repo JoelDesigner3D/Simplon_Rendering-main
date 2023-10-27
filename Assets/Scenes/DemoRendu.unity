@@ -7726,8 +7726,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5623b528474e42d1a332fa4fdc46046, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  field: {fileID: 1965438441}
   materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: ed61adc8f7c39e842bb301cf3fe570c0, type: 2}
+  - {fileID: 2100000, guid: b0e12e75ef87b564f93bae66b9572b3f, type: 2}
+  - {fileID: 2100000, guid: f9bfff16f17734d4aaaf3c37d48b1358, type: 2}
+  - {fileID: 2100000, guid: 2288b08fcb7ba9940b5fa381563af24e, type: 2}
+  - {fileID: 2100000, guid: aaabb5d14f30cb941ab9171216b60f78, type: 2}
+  - {fileID: 2100000, guid: e82958639e4bab04fa0867765dc4db11, type: 2}
   ground: {fileID: 838501293}
 --- !u!114 &728161406
 MonoBehaviour:
@@ -22537,7 +22543,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 10
+    m_FontSize: 5
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -22548,7 +22554,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Jour
+  m_Text: Wood
 --- !u!222 &1965438442
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -23797,7 +23803,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 728161405}
     - target: {fileID: 5419331889293473514, guid: 76f3439a0ae796e4b81bee3f91f888ee,
         type: 3}
       propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
@@ -23806,12 +23812,12 @@ PrefabInstance:
     - target: {fileID: 5419331889293473514, guid: 76f3439a0ae796e4b81bee3f91f888ee,
         type: 3}
       propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ToggleSunny
+      value: ChangeMaterial
       objectReference: {fileID: 0}
     - target: {fileID: 5419331889293473514, guid: 76f3439a0ae796e4b81bee3f91f888ee,
         type: 3}
       propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: NightAndDayButtonManager, Assembly-CSharp
+      value: ChangeMaterialsManager, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 5419331889293473514, guid: 76f3439a0ae796e4b81bee3f91f888ee,
         type: 3}

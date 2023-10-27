@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ChangeMaterialsManager : MonoBehaviour
 {
+    [SerializeField] private Text field;
     [SerializeField] Material[] materials;
     [SerializeField] GameObject ground;
     private int currentMaterialId = 0;
@@ -14,8 +16,15 @@ public class ChangeMaterialsManager : MonoBehaviour
         if (currentMaterialId < materials.Length)
         {
             currentMaterialId += 1;
-            ground.gameObject.GetComponent<Renderer>().material = materials[currentMaterialId];
         }
+        else
+        {
+            currentMaterialId = 0;
+        }
+
+        ground.gameObject.GetComponent<Renderer>().material = materials[currentMaterialId];
+
+        field.text = materials[currentMaterialId].name;
 
     }
 }
