@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ChangeMaterialsManager : MonoBehaviour
+public class ChangeMaterialsController : MonoBehaviour
 {
     [SerializeField] private Text field;
     [SerializeField] Material[] materials;
